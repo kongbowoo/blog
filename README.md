@@ -3,4 +3,4 @@ Just a test project
 
 Modified by wubo
 
-±æµÿ≤‚ ‘°£
+local test on lenovo notebook.

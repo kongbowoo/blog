@@ -6,3 +6,5 @@ Modified by wubo
 local test on lenovo notebook.
 
 UTF-8 测试中文。
+
+本地测试HW。

@@ -1,13 +1,6 @@
 Scapy学习笔记
 =====
 
-
-
-
-# Git及Git
-* Git下载地址： https://git-for-windows.github.io/
-* TortoiseGit下载地址： https://tortoisegit.org/download/
-
 # Scapy安装说明
 
 # Scapy使用说明

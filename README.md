@@ -1,10 +1,6 @@
-# hello-world
-Just a test project
+# 项目概述
+主要记录学习笔记和经验总结。
 
-Modified by wubo
-
-local test on lenovo notebook.
-
-UTF-8 测试中文。
-
-本地测试HW。
+# 内容列表
+* GitHub本地使用指南
+* Scapy学习笔记

@@ -1,36 +1,34 @@
-# ScapyÑ§Ï°±Ê¼Ç
+Scapyå­¦ä¹ ç¬”è®°
+=====
 
-python scapy DDoS
+# Scapyå®‰è£…è¯´æ˜Ž
 
----
-# Scapy°²×°ËµÃ÷
+# Scapyä½¿ç”¨è¯´æ˜Ž
+> å‚è€ƒæ–‡æ¡£ï¼šhttp://blog.csdn.net/Al_xin/article/details/52305549
 
-# ScapyÊ¹ÓÃËµÃ÷
-> ²Î¿¼ÎÄµµ£ºhttp://blog.csdn.net/Al_xin/article/details/52305549
-
-´ò¿ªÃüÁîÐÐ£¬ÊäÈëPython½øÈëPython½âÊÍÆ÷
-ÊäÈëimport scapy.all as scapy 
+æ‰“å¼€å‘½ä»¤è¡Œï¼Œè¾“å…¥Pythonè¿›å…¥Pythonè§£é‡Šå™¨
+è¾“å…¥import scapy.all as scapy 
 
 ```python
 >>>import scapy.all as scapy
 WARNING: No route found for IPv6 destination :: (no default route?). This affects only IPv6
 ```
 
-Èç¹û³öÏÖÒÔÏÂÐÅÏ¢£¬ÔòËµÃ÷ÔËÐÐÕý³£¡£
+å¦‚æžœå‡ºçŽ°ä»¥ä¸‹ä¿¡æ¯ï¼Œåˆ™è¯´æ˜Žè¿è¡Œæ­£å¸¸ã€‚
 ```python
 >>>scapy.IP()
 <IP  |>
 ```
 
-**×¢£ºlinuxÏÂÔËÐÐ·½Ê½Óëwindows²»Ò»Ñù£¬ÍøÉÏ´ó²¿·ÖÎÄÕÂÊÇÒÔlinux½øÐÐËµÃ÷µÄ¡£**
+**æ³¨ï¼šlinuxä¸‹è¿è¡Œæ–¹å¼ä¸Žwindowsä¸ä¸€æ ·ï¼Œç½‘ä¸Šå¤§éƒ¨åˆ†æ–‡ç« æ˜¯ä»¥linuxè¿›è¡Œè¯´æ˜Žçš„ã€‚**
 
-> ÔÚÏßÎÄµµ£ºhttp://scapy.readthedocs.io/en/latest/#starting-scapy
+> åœ¨çº¿æ–‡æ¡£ï¼šhttp://scapy.readthedocs.io/en/latest/#starting-scapy
 
-·¢ËÍ±¨ÎÄ
+å‘é€æŠ¥æ–‡
 
 scapy.send(scapy.IP(dst="192.168.115.188")/scapy.ICMP())
 
-**×¢£ºwindowsÏÂÔËÐÐÐèÒª¼ÓÇ°×ºscapy.**
+**æ³¨ï¼šwindowsä¸‹è¿è¡Œéœ€è¦åŠ å‰ç¼€scapy.**
 ```python
 >>>p=scapy.sr1(scapy.IP(dst="192.168.1.1")/scapy.ICMP()/"test")
 Begin emission:

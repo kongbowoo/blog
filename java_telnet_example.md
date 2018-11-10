@@ -156,3 +156,4 @@ public class TelnetUtil {
 版权声明：本文为博主原创文章，转载请附上博文链接！
 ```
 ### 2.SSH登录范方法
+SSH的实现需要包：jsch-0.1.42.jar

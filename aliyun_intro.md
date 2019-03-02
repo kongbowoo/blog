@@ -1,8 +1,11 @@
 * 将unbuntu支持桌面系统
+
+```shell
 apt-get update
 apt-get install ubuntu-desktop
+```
 
-reboot
+* 安装后需要重启系统
 
 
 ```shell

@@ -19,3 +19,30 @@ user-session=ubuntu
 greeter-show-manual-login=true
 allow-guest-false
 ```
+
+* vim /root/.profile 
+
+```shell
+# ~/.profile: executed by Bourne-compatible login shells.
+  
+if [ "$BASH" ]; then
+  if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+  fi
+fi
+
+mesg n || true
+```
+修改为：
+```shell
+# ~/.profile: executed by Bourne-compatible login shells.
+  
+if [ "$BASH" ]; then
+  if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+  fi
+fi
+
+tty -s && mesg n || true
+```
+

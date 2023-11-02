@@ -1,0 +1,65 @@
+.top-main {
+    width: 80%!important
+}
+
+.hi-blog-personal-detail-content {
+    width: 80%!important
+}
+
+.hi-blog-personal-detail-leftpanel {
+    width: 75%!important
+}
+
+.table-of-contents::-webkit-scrollbar {
+    width: 7px
+}
+
+.table-of-contents::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #eee
+}
+
+.table-of-contents::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #c1c1c1
+}
+
+.hi-blog-personal-detail-rightpanel {
+    width: 20% !important;
+    position: sticky !important;
+    top: 20px;
+    margin-left: 5% !important;
+}
+
+.hi-blog-blogger-info,.hi-blog-personal-detail-leftpanel-content {
+    border: 1px solid #dcdfe2!important
+}
+
+.markdown-preview {
+    padding: 32px!important
+}
+
+.markdown-preview ol,.markdown-preview ul {
+    padding-left: 1.5em!important
+}
+
+.markdown-preview {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    color: #24292e;
+    line-height: 1.5;
+    font-family: Segoe UI,Helvetica,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    padding: 32px;
+}
+
+.markdown-preview a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.markdown-preview td, .markdown-preview th {
+    padding: 0;
+}
